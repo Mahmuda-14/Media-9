@@ -171,9 +171,7 @@ main {
 
 
 /* /* facts section  */
-.facts{
-    margin-top:104px;
-}
+
 .facts-card-container {
     display: flex;
     justify-content: space-around;
@@ -236,6 +234,9 @@ main {
     .facts-card-container,
     .sponsors-img-container {
         flex-direction: column;
+    }
+    .facts{
+        margin-top:104px;
     }
     .feature-img img{
         width:90%;
